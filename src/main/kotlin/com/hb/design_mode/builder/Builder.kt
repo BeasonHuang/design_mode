@@ -32,6 +32,7 @@ fun main(args: Array<String>) {
     val car1 = Car.build {
         model = "bc"
         year = 3
+        println(this)
     }
 
     val car2 = Car(
